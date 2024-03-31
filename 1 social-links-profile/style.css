@@ -1,0 +1,81 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+    background-color: #141414;
+}
+/*Ajeitando Botões*/
+.card {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 300px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+
+.botao {
+    font-size: 9pt;
+    height: 35px;
+    width: 250px;
+    background-color: #333333;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.insta {
+    margin-bottom: 30px;
+}
+/* Ajeitando o Texto */
+.nome {
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+.frase {
+    font-size: 9pt;
+    justify-content: center;
+    color: #dadada;
+    margin-bottom: 17px;
+    font-family: 'Inter', sans-serif;
+}
+
+.endereco {
+    color: rgba(191,220,106,255);
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 8.5pt;
+    font-family: 'Inter', sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.attribution {
+    color: #ffffff;
+    font-size: 12pt;
+    margin-top: 15px;
+}
